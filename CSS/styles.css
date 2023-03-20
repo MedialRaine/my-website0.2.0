@@ -1,0 +1,141 @@
+/**********************Tag Styles***************************/
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Cabin Condensed', sans-serif;
+  line-height: 2;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  margin: 3.125rem auto 0 auto;
+  font-family: 'Press Start 2P', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Permament Marker',cursive;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+a:hover{
+  background-color: #77d8d8;
+}
+hr{
+border-style: dotted none;
+border-bottom: none;
+color: #EAF6F6;
+border-width: thick 6px;
+width: 4%;
+padding: 20px 0 30px;
+}
+span{
+  text-decoration: underline;
+}
+/*********************Class Styles*************************/
+.top-container {
+  position: relative;
+  background-color: #EAF6F6;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 10px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 150px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 200px
+}
+
+.img-profile {
+  margin-top: 10%;
+  height: 20%;
+  width: 20%;
+}
+
+.danceskills {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.developerskills {
+  border-radius: 100px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.social-media-button {
+  height: 25px;
+  width: 25px;
+  margin: 20px 10px auto;
+}
+
+.a-programmer {
+  font-weight: normal;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+
+}
+.profile-description{
+  color: #40514E;
+  margin: auto;
+  width: 30%;
+}
+.contact-me-p{
+  width: 30%;
+  margin: auto;
+}
+.closing-bar{
+  color: #EAF6F6;
+  font-size: 13px;
+  margin: 15px 0 10px;
+}
+.myButton {
+	box-shadow: 0 1px 0 0 #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Press Start 2P', cursive;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 -1px 50px #5b6178;
+  margin: 3% auto;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
